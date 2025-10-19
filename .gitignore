@@ -1,0 +1,96 @@
+# Node.js dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Vite / React build outputs
+/dist
+/build
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+/.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# Firebase / Google credentials (if any)
+firebase-debug.log
+firebase.json
+
+# Yarn / npm / pnpm lock files (optional, usually should track)
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
+
+# Coverage reports
+/coverage
+/.nyc_output
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# MacOS files
+.AppleDouble
+.LSOverride
+
+# Logs & reports
+logs
+*.log
+
+# Misc
+*.tsbuildinfo
+*.turbo
+
+# Storybook build output
+/out
+
+# Test coverage
+/coverage
+
+# Optional npm cache folder
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Parcel-bundler cache (if used)
+.cache
+
+# Next.js build output (if used)
+.next
+
+# React Native
+.expo
+.expo-shared
+
+# Optional REPL history
+.node_repl_history
+
+# Misc
+*.pid
+*.seed
+*.pid.lock

@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom */
+:root{
+  --glass-bg: rgba(255,255,255,0.75);
+  --glass-border: rgba(255,255,255,0.6);
+}
+
+/* subtle glass card */
+.card-glass {
+  @apply rounded-2xl shadow-xl backdrop-blur-md border;
+  background: var(--glass-bg);
+  border-color: var(--glass-border);
+}
+
+/* primary button style */
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg font-semibold shadow-md text-white;
+  background: linear-gradient(90deg, #7c3aed, #06b6d4);
+}
+
+/* secondary outline */
+.btn-outline {
+  @apply inline-flex items-center gap-2 px-4 py-2 rounded-lg font-medium border;
+}
+
+/* input */
+.input {
+  @apply w-full rounded-lg px-4 py-2 border focus:outline-none focus:ring-2 focus:ring-offset-1;
+}

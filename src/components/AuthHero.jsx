@@ -1,6 +1,5 @@
 import React from 'react';
-import Logo from './Logo.jsx'; // add .jsx extension explicitly
-
+import Logo from '../Logo';
 
 export default function AuthHero({title, subtitle}) {
   return (
